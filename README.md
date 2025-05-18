@@ -1,6 +1,6 @@
 Hello! :)
     
-    I am not at all familiar with Laravel or Laravel Dusk and I had issues with getting it installed or to run but I managed to make a few tests with it. I think there was an issue with DuskTestCase.php as running the tests would give me exception errors when I would comment out --headless. Credentials used were kirstin82@example.net with password.
+    I am not at all familiar with Laravel or Laravel Dusk and I had issues with getting it installed or to run but I managed to make a few tests with it. I think there was an issue with DuskTestCase.php as running the tests would give me exception errors when I would comment out --headless, running Chromedriver seemed to work.Credentials used were kirstin82@example.net with password.
         * loginTest.php tests Logins as well as entering incorrect credentials
         * videoTest.php tests to see if the links work as well as if the video file displayed changes
         * createTest.php just tests if the Create button works and moves you
